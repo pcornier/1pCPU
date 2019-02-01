@@ -1,10 +1,3 @@
-# ROM:
-# lda #$05
-# loop:
-#   tab (b = a)
-#   dec (a = a-1)
-#   jnz loop
-# nop
 
 from myhdl import *
 
