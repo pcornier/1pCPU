@@ -100,7 +100,7 @@ def processor(clk, rst, di, do, adr, we):
             cyc.next = s.M2
         elif cyc == s.M2:
             adr.next = pc
-            if ir == 3: ra.next = do
+            if ir == 0x02: ra.next = do
             cyc.next = s.F1
                         
     return logic
