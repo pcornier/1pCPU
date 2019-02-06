@@ -1,4 +1,5 @@
 
 A small 8bit CPU in MyHDL.
 
-![gtkwave](screenshot.png)
+https://nbviewer.jupyter.org/github/pcornier/1pCPU/blob/master/pCPU.ipynb
+
